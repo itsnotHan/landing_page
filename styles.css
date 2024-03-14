@@ -21,6 +21,7 @@ body{
 .header-link{
     font-size: 24px;
     color: #E5E7EB;
+    align-items: right;
 }
 
 .navbar{
@@ -42,5 +43,48 @@ ul{
 
 h1{
     font-size: 48px;
+    font-weight: bolder;
     color: #F9FAF8; 
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    justify-content: center;
+    margin: 200px;
+}
+
+
+.content-right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+img{
+    margin-bottom: 50px;
+    height: 300px;
+}
+
+p-first{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-first-section{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px #3882F6;
+    border-radius: 10px;
 }
