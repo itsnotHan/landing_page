@@ -11,6 +11,44 @@
     color: #F9FAF8;
 }
 
+.hero{
+    display:flex;
+    justify-content: space-between;
+    color:#F9FAF8; 
+    padding:100px;
+}
+
+.heroText{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    width: 400px;
+}
+
+.links{
+    margin-left: auto;
+}
+
+.signup{
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    background-color: #3882f6;
+    text-align: center;
+    color:#F9FAF8;
+    padding: 8px 24px;
+    border-radius: 10px;
+    border:none;
+}
+
+.information{
+    display: flex
+}
 ul{
     display: flex;
     list-style-type: none;
